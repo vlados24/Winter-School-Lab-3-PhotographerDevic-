@@ -55,6 +55,4 @@ public abstract class PhotographerDevice {
 		this.target = target;
 	}
 
-
-
 }

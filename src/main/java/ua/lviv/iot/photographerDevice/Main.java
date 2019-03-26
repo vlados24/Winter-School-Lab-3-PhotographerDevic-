@@ -31,6 +31,7 @@ public class Main {
 		System.out.print(listDevice);
 		manager.sortByWeight(listDevice, true);
 		System.out.print(listDevice);
+		
 	}
 
 }

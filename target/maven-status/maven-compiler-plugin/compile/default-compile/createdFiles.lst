@@ -1,0 +1,9 @@
+main\java\ua\lviv\iot\photographerDevice\manager\lPhotographerDeviceManager.class
+main\java\ua\lviv\iot\photographerDevice\model\Lantern.class
+main\java\ua\lviv\iot\photographerDevice\model\PhotographerDevice.class
+main\java\ua\lviv\iot\photographerDevice\model\Target.class
+main\java\ua\lviv\iot\photographerDevice\manager\PhotographerDeviceManager.class
+main\java\ua\lviv\iot\photographerDevice\Main.class
+main\java\ua\lviv\iot\photographerDevice\model\StudioStand.class
+main\java\ua\lviv\iot\photographerDevice\model\Camera.class
+main\java\ua\lviv\iot\photographerDevice\model\Quadcopter.class
