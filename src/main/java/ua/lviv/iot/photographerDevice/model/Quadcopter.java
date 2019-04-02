@@ -22,11 +22,11 @@ public class Quadcopter extends PhotographerDevice {
 	}
 
 	public String getHeaders() {
-		return null;
+		return super.getHeaders() + "," + "maxHeight" + "," + "power" + ","+ "batteryCapacity";
 	}
 
 	public String toCSV() {
-		return null;
+		return this.maxHeight + "," + this.power+","+this.batteryCapacity;
 	}
 
 	public int getMaxHeight() {

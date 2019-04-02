@@ -17,15 +17,15 @@ public abstract class PhotographerDevice {
 	}
 
 	public String toString() {
-		return "PhotographerDevice{" + " wight " + weight + " size " + size + " Target " + target;
+		return "PhotographerDevice{" + " weight " + weight + " size " + size + " Target " + target;
 	}
 	
 	public String getHeaders() {
-		return null;
+		return  "," + "weight" + "," + "size" + ","+ "target";
 	}
 	
 	public String toCSV() {
-		return null;
+		return this.weight + "," + this.size+","+this.target;
 	}
 
 	public int getWeight() {

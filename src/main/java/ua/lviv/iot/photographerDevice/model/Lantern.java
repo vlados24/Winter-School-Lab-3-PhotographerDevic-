@@ -23,11 +23,11 @@ public class Lantern extends PhotographerDevice {
 	}
 
 	public String getHeaders() {
-		return null;
+		return  super.getHeaders() + "," + "colourTemperature" + "," + "type";
 	}
 	
 	public String toCSV() {
-		return null;
+		return  this.colourTemperature + "," + this.type;
 	}
 	
 	public int getColourTemperature() {
