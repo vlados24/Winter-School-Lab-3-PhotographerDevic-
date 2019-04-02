@@ -27,6 +27,13 @@ public class Camera extends PhotographerDevice {
 				" matrix " + matrix +
 				" processor " + processor ;
 	}
+	public String getHeaders() {
+		return super.getHeaders() + "," + "model" + "," + "rotaryDisplay" + ","+ "martix" +", "+"processor";
+	}
+	
+	public String toCSV() {
+		return this.model + "," + this.rotaryDisplay+","+this.matrix+","+this.processor ;
+	}
 	
 	public String getModel() {
 		return model;

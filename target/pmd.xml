@@ -2,7 +2,7 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.8.0" timestamp="2019-03-25T09:09:03.228">
+    version="6.8.0" timestamp="2019-04-01T14:31:22.827">
 <file name="C:\Users\klient\eclipse-workspace\Winter-School-Lab-3-PhotographerDevic-\src\main\java\ua\lviv\iot\photographerDevice\manager\PhotographerDeviceManager.java">
 <violation beginline="7" endline="7" begincolumn="1" endcolumn="34" rule="UnusedImports" ruleset="Best Practices" package="main.java.ua.lviv.iot.photographerDevice.manager" class="PhotographerDeviceManager" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
 Avoid unused imports such as 'java.util.stream.Collector'
